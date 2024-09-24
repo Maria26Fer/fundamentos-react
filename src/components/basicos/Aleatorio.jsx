@@ -12,7 +12,7 @@ export default (props) => {
             </p>
 
             <p>
-                <strong>Valor Maximo: </strong> {max}
+                <strong>Valor Máximo: </strong> {max}
             </p>
 
             <p>
