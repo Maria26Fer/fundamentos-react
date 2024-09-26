@@ -9,6 +9,7 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmentos';
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 // eslint-disable-next-line
 export default () => (
@@ -17,6 +18,10 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+
+            <Card titulo="#07 - Desafio Repetição" color="#47c27d">
+                <TabelaProdutos></TabelaProdutos>
+            </Card>
 
             <Card titulo="#06 - Repetição" color="#7fc7af">
                 <ListaAlunos></ListaAlunos>
